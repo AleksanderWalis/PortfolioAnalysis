@@ -1,0 +1,34 @@
+C++ portfolio analysis software designed to assist in making informed investing decisions. Project fetches real-time stock market data via API calls and provides key analytics tools to support data driven decision making.
+
+FEATURES
+-Stock data fetching via API calls, fast JSON handle for parsing stock prices
+-Portfolio performance analysis based on historical data
+-Forecasting Tools (ARIMA family)
+-Easily customization for new data sources
+
+STRUCTURE
+--src/
+|	-main.cpp
+|	-fetcher.cpp
+|	-company.cpp
+|	-error_handle.cpp
+|	-interpreter.cpp
+|	-get_data.py
+--include/
+|	-fetcher.hpp
+|	-company.hpp
+|	-error_handle.hpp
+|	-interpreter.hpp
+|	
+--tests/
+|
+|
+|--README
+
+FUTURE IMPROVEMENTS
+-Add support for more data gathering sources
+-Integrate more diverse machine learning and deep learning models
+
+
+CONTRIBUTORS
+* Aleksander Walis
